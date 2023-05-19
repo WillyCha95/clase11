@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+div{
+    border: 1px solid;
+    float: left;
+    height: 140px;
+    width: 140px;
+    margin: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    word-wrap: break-word;
+}
+
+/*word-wrap que sirve para especificar que las palabras que sean demasiados largas se deben cortar, el otro valor posible es "normal"*/
+
+h2{
+    margin: 55px 0 -30px 65px;
+    font-size: 22px;
+    white-space: pre;
+    text-align: center;
+    width: 400px;
+}
+
+/*pre: no se eliminan los espacios en blanco sobrantes y sólo se muestran los saltos de línea incluidos en el texto original*/
+
+.contenedor{
+    width: 600px;
+    background-color: white;
+    border: none;
+}
+
+:root{
+    --silver: #008080;
+    --gris-claro: #ffebcd;
+}
+
+.toBottom{
+    background-image: linear-gradient( to bottom, var(--silver), var(--gris-claro));
+}
+
+.cuadro1{
+    background: linear-gradient( 45deg, var(--silver), var(--gris-claro));
+}
+
+.cuadro2{
+    background: linear-gradient(75deg, var(--silver), var(--gris-claro));
+}
+
+.cuadro3{
+    background: linear-gradient(180deg, var(--silver), var(--gris-claro));
+}
+
+.cuadro4{
+    background: linear-gradient(90deg, var(--silver), var(--gris-claro));
+}
+
+.cuadro5{
+    background: linear-gradient(0deg, var(--silver), var(--gris-claro));
+}
+
+.colorido1{
+    background: linear-gradient(90deg, red, blue, yellow);
+}
+
+.colorido2{
+    background: linear-gradient(90deg, red, blue 10px,yellow);
+}
+
+.colorido3{
+    background: linear-gradient(90deg, blue, red 30px, yellow 120px, green); /*yellow 120px*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
